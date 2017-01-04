@@ -26,6 +26,19 @@ It need to install package file from package.json. It will be listed in dependen
 
 Note the vender.js file is around 6.19 MB (+/-) depend what you include with it. By default files are angular 2 and support files to run javascript.
 
+```
+const vendors = [
+    'babel-polyfill',
+    'zone.js/dist/zone',
+    '@angular/platform-browser-dynamic',
+    '@angular/core',
+    '@angular/common',
+    '@angular/platform-browser',
+    '@angular/router',
+    'rxjs/add/operator/map'
+];
+```
+
 Credits:
  * https://github.com/shuhei/babel-angular2-app/blob/master/src/index.html
  * http://blog.revathskumar.com/2016/02/browserify-separate-app-and-vendor-bundles.html

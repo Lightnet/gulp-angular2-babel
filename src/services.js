@@ -1,3 +1,5 @@
+//simple class greeter
+
 export class Greeter {
   say(greeting, name) {
     const capitalized = this.capitalize(greeting);

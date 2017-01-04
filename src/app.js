@@ -1,3 +1,5 @@
+//setup app
+
 import { NgModule, Component, Input, Attribute } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
